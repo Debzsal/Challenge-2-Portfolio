@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2%;
+  background-color: rgb(255, 205, 246);
+  color: royalblue
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* need to filter or colour to background image */
+.hero-banner { 
+display: flex;
+justify-content:flex-end;
+align-items:flex-end;
+background-image: url("../images/02-hero-bg.jpg");
+background: hsl(206, 183, 209);
+background-size: 1300px;
+width: 1280px;
+height: 200px; 
+}
+
+.hero-banner h2 {
+background-color: palevioletred;
+color: blue;
+}
+
+.page-wrapper {
+margin: 0px;
+display:grid;
+align-content: space-between;
+grid-template-rows: 2fr 4fr 1fr;
+grid-template-columns: 25% 75%;
+grid-template-areas: 
+'about aboutme'
+'work portfolio'
+'contact information' ;
+
+gap: 0px;
+height: 100%;
+
+}
+
+#about {
+grid-area: about;
+font-size: xx-large;
+}
+
+#work {
+grid-area: work;
+display: grid;
+font-size: xx-large;
+}
+
+#contact {
+grid-area: contact;
+font-size: xx-large;
+}
+
+.aboutme {
+grid-area: aboutme;
+
+}
+
+.portfolio {
+grid-area: portfolio;
+
+}
+
+.information {
+grid-area: information;
+}
+
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
