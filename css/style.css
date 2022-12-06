@@ -46,7 +46,7 @@ color: blue;
 margin: 0px;
 display:grid;
 align-content: space-between;
-grid-template-rows: 1fr 3fr 1fr;
+grid-template-rows: 0.5fr 3fr 1fr;
 grid-template-columns: 25% 75%;
 grid-template-areas: 
 'about aboutme'
@@ -61,12 +61,14 @@ height: 100%;
 #about {
 grid-area: about;
 font-size: xx-large;
+
 }
 
 #work {
 grid-area: work;
 display: grid;
 font-size: xx-large;
+
 }
 
 #contact {
@@ -77,11 +79,16 @@ padding-top: 70px;
 
 .aboutme {
 grid-area: aboutme;
+width: 543.75px;
+height: 150px;
+width: fit-content;
+
 
 }
 
 .portfolio {
 grid-area: portfolio;
+
 }
 
 .information {
@@ -124,6 +131,3 @@ h6 {
   margin: 0;
 }
 
-p {
-  margin: 0;
-}
