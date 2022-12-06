@@ -1,7 +1,7 @@
 # Deborah Salami's Starter Portfolio
 
 ## Description  
-The motivation for this project was to showcase the various projects that I have worked on. The aim of this project is to provide futrue emploers with a good understanding of my capabilites and skills as a future web developer. This project solves the problem of helping employers to know what skills I possess prior to the interview stage, as a result this will support my applications to job roles. From this project, I have learned a variety of skills, however the most significant skills that I have learnt are the following; nav bar, grids, flexbox media queries, margins and padding.
+The motivation for this project was to showcase the various projects that I have worked on. The aim of this project is to provide future emploers with a good understanding of my capabilities and skills as a future web developer. This project solves the problem of helping employers to know what skills I possess prior to the interview stage, as a result this will support my applications to job roles. From this project, I have learned a variety of skills, however the most significant skills that I have learnt are the following; nav bar, grids, flexbox media queries, margins and padding.
 
 ## Installation N/A
 
