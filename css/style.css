@@ -131,7 +131,7 @@ grid-area: information;
   justify-content: space-evenly;
   list-style-type: none;
   padding-top: 70px;
-  padding-left: 1px;
+  margin-left: -130px;
   ;
   
   }
@@ -153,3 +153,17 @@ h6 {
     max-width: 100%;
   }
 }
+  @media screen and (max-width: 800px) {
+  ul {
+    flex-direction: column;
+    margin-right: -1000px;
+    padding-left: 160px;
+  }
+
+}
+
+  @media screen and (max-width: 800px) {
+  nav ul {
+  flex-direction: row;
+  }
+  }
