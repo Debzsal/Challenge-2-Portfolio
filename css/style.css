@@ -80,49 +80,30 @@ grid-area: aboutme;
 }
 
 .portfolio {
-display: grid;
 grid-area: portfolio;
-grid-template-rows: 1fr 1fr 1fr;
-grid-template-columns: 50% 50%;
-grid-template-areas: 
-'cmp cmp'
-'ra mua'
-'. .';
-
-gap: 50px;
-height: 100%;
-
 }
 
 .information {
 grid-area: information;
 }
 
-.cmp {
-grid-area: cmp;
-display: flex;
-justify-content:flex-start;
-align-items:flex-end;
-background-image: url("../images/child\ medical\ app.jpeg");
-background-repeat: no-repeat;
-background-attachment: scroll;
-
+/* <!-- code taken from w3schools --> */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-.ra {
-grid-area: ra;
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
 }
 
-.mua {
-grid-area: mua;
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
 }
-
-.cmp h3 {
-background-color: palevioletred;
-color: blue;
-
-}
-
 
 
 h1,
