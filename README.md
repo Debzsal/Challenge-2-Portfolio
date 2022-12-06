@@ -11,7 +11,6 @@ The project can be used by clicking on the project URL in order to access and na
 ```md
 ![Screenshot 1](images/Screen-Shot-2022-12-06-at-20.06.44.png)
 ![Screenshot 2](images/Screen-Shot-2022-12-06-at-20.13.14.png)
-!
 ```
 
 ## Credits
